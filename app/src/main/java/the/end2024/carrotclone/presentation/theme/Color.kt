@@ -1,4 +1,4 @@
-package the.end2024.carrotclone.ui.theme
+package the.end2024.carrotclone.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package the.end2024.carrotclone.ui.theme
+package the.end2024.carrotclone.presentation.theme
 
 import android.app.Activity
 import android.os.Build
