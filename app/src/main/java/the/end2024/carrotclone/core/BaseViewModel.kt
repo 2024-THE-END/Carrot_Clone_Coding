@@ -20,7 +20,7 @@ abstract class BaseViewModel<State : UiState, Event : UiEvent, Effect : UiEffect
         MutableStateFlow(createState())
     }
 
-    val state: StateFlow<UiState> by lazy {
+    val state: StateFlow<State> by lazy {
         _state.asStateFlow()
     }
 

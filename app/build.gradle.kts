@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "the.end2024.carrotclone"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "the.end2024.carrotclone"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -69,5 +69,8 @@ dependencies {
 
     //koin
     implementation("io.insert-koin:koin-androidx-compose:3.2.0")
+
+    // lifecycle
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
 
 }
