@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.koin.androidx.compose.koinViewModel
 import the.end2024.carrotclone.presentation.ex.ExScreen
+import the.end2024.carrotclone.presentation.nav.NavigationManager
 import the.end2024.carrotclone.presentation.theme.CarrotCloneTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             CarrotCloneTheme {
-                ExScreen(koinViewModel()).Create()
+                //ExScreen(koinViewModel()).Create()
+                NavigationManager.addNavigation()
             }
         }
     }
